@@ -6,7 +6,7 @@ import plotly.express as px
 
 st.title('日本の賃金データダッシュボード')
 
-path = 'municipality-wages_20200827\\雇用_医療福祉_一人当たり賃金_'
+path = r'municipality-wages_20200827/雇用_医療福祉_一人当たり賃金_'
 
 df_jp_ind   = pd.read_csv(f'{path}全国_全産業.csv', encoding='shift_jis')
 df_jp_cat   = pd.read_csv(f'{path}全国_大分類.csv', encoding='shift_jis')
